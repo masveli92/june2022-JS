@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d67eafda-5722-4644-b702-dc2d35441849" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework1/homework1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework1/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/june2022-JS.iml" afterDir="false" />
+    <list default="true" id="d67eafda-5722-4644-b702-dc2d35441849" name="Changes" comment="1homework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +34,18 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ОКТЕН ПРОГРАМИРОВАНИЕ/JS/june2022-JS/homework2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ОКТЕН ПРОГРАМИРОВАНИЕ\JS\june2022-JS\homework2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,8 +54,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658693848602</updated>
-      <workItem from="1658693850675" duration="5510000" />
+      <workItem from="1658693850675" duration="5856000" />
+      <workItem from="1658725802382" duration="719000" />
+      <workItem from="1658876614077" duration="10435000" />
     </task>
+    <task id="LOCAL-00001" summary="1homework">
+      <created>1658725558126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658725558126</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1homework">
+      <created>1658887874977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658887874977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="1homework" />
   </component>
 </project>
