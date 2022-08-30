@@ -3,31 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-<style>
+<!--<style>-->
 
-.member{
+<!--.member{-->
+<!--    display: flex;-->
+<!--    }-->
+<!--.members {-->
+<!--    width: 20%;-->
+<!--    border: 1px solid black;-->
+
+<!--}-->
+<!--.members>img {-->
+<!--       height: 200px;-->
+<!--   }-->
+<!--.members>h2{-->
+<!--    text-align: center;-->
+<!--}-->
+<!--.members>p{-->
+<!--    text-align: center;-->
+<!--    margin: 5px;-->
+<!--}-->
+
+<!--</style>-->
+
+    <style>
+
+.courses{
     display: flex;
-    }
-.members {
-    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    background: silver;
     border: 1px solid black;
+}
+.firstLine {
+    width: 90%;
+    height: 30px;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.secondLine {
+    width:90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.monthDur{
+    width:30%;
+    height: 100%;
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    font-size: large;
+}
+.hourDur{
+    width:65%;
+    height: 100%;
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    font-size: large;
+}
+.thirdLine{
+    border: 1px solid black;
+    width:90%;
+    display: block;
+    margin: 40px;
+
+    }
+.ul {
+    width:100%;
+    padding: 0;
+}
+.list{
+    border: 1px solid black;
+    list-style-type: none;
+    width:95%;
+    margin: 10px;
+    background: white;
+    text-align: center;
+
 
 }
-.members>img {
-       height: 200px;
-   }
-.members>h2{
-    text-align: center;
-}
-.members>p{
-    text-align: center;
-    margin: 5px;
-}
 
-</style>
+
+    </style>
+
 </head>
 <body>
-<div class = 'member'> </div>
+<!--<div class = 'member'> </div>-->
+
+<div class = 'courses'> </div>
+
 
 <script src="main.js"></script>
 </body>
