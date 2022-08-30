@@ -1,0 +1,110 @@
+ /*Стилизація проєкта -*/
+ /*   index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+ body{
+     background: #F6F8FA;
+ }
+ .userContainer{
+     width: 100%;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     column-gap: 15px;
+     row-gap: 15px;
+ }
+ .userBlock {
+    width: 48%;
+     height: 100px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+     font-size: 20px;
+     background: #DBDCDD;
+ }
+ .infoLink {
+     margin: 5px;
+     padding: 5px;
+     border:1px solid black;
+     border-radius: 5px;
+     background: #EFEFEF;
+ }
+
+ /*   user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+ /*   блоки з короткою іфною про post - в ряд по 5 .*/
+.userInfoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoUl{
+ width: 50%;
+ margin: 5px;
+}
+.postButton{
+    width: 90%;
+    margin: 5px;
+}
+.postBox{
+    margin-top:10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap:10px;
+
+}
+.postDiv{
+    margin-left: 7px;
+    width:19%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 90px;
+    padding: 10px;
+    background: #DBDCDD;
+}
+ /*   post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+ /*   Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки*/
+ /*   (дати фон. марджини і тд)*/
+ .postContainer{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+
+ }
+ .postDataBox{
+text-align: center;
+ }
+ .postElement{
+width: 100%;
+     text-align: start;
+ }
+ .commentBox{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 15px;
+     row-gap: 10px;
+
+ }
+ .divComment{
+     width: 24%;
+     height: 280px;
+     display: flex;
+     flex-direction: column;
+     border: 1px solid black;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 0;
+     background: #DBDCDD;
+ }
+ .dataComment{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     margin: 5px;
+     list-style: none;
+
+ }
